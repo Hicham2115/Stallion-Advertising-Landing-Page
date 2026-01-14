@@ -43,7 +43,7 @@ function App() {
         "(LinkedIn · Instagram · Ads-ready)",
         "10 edited professional photos",
       ],
-      deliverablesTitle: "Deliverables (48h)",
+      deliverablesTitle: "Deliverables (24h)",
       bestFor: [
         "First event presence",
         "Social media visibility",
@@ -72,7 +72,7 @@ function App() {
         "(Website · YouTube · Ads)",
         "20 edited professional photos",
       ],
-      deliverablesTitle: "Deliverables (72h)",
+      deliverablesTitle: "Deliverables (24h - 48h)",
       bonus: [
         "Free captions & posting copy",
         "Content optimized for reach & ads",
@@ -104,11 +104,8 @@ function App() {
         "(60–90 sec)",
         "30 edited professional photos",
       ],
-      deliverablesTitle: "Deliverables (5–7 days)",
-      bonus: [
-        "1 ad-ready video",
-        "(structured for paid ads)",
-      ],
+      deliverablesTitle: "Deliverables (24h - 48h)",
+      bonus: ["1 ad-ready video", "(structured for paid ads)"],
       bestFor: [
         "Market leaders",
         "International exposure",
@@ -240,9 +237,7 @@ function App() {
                 {/* Bonus */}
                 {offer.bonus && (
                   <div className="mb-6 pb-6 border-b border-gray-800">
-                    <h4 className="text-sm font-bold text-white mb-3">
-                      Bonus
-                    </h4>
+                    <h4 className="text-sm font-bold text-white mb-3">Bonus</h4>
                     <div className="space-y-2">
                       {offer.bonus.map((item, idx) => (
                         <div key={idx} className="flex items-start gap-2">
@@ -280,6 +275,20 @@ function App() {
             <button className="px-8 py-3 bg-gradient-to-r from-[#65891c] to-[#bafc0c] text-black font-bold rounded-lg hover:shadow-[0_0_30px_rgba(186,252,12,0.4)] transition-all duration-300">
               Contact Us for Consultation
             </button>
+          </div>
+
+          {/* Footer Company Info */}
+          <div className="mt-20 border-t border-gray-800 pt-10 text-center">
+            <h5 className="text-white font-bold text-lg mb-4">
+              STALLION ADVERTISING
+            </h5>
+            <div className="space-y-2 text-md text-gray-400">
+              <p>ICE: 003784544000022</p>
+              <p>IF: 68657931 | RC: 694073</p>
+              <p>Adresse: MOHAMED SMIHA, CASABLANCA</p>
+              <p>Téléphone: 0649557449</p>
+              <p>Email: advertisingstallion@gmail.com</p>
+            </div>
           </div>
         </div>
       </div>
