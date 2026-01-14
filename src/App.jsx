@@ -286,7 +286,7 @@ function App() {
               <p>ICE: 003784544000022</p>
               <p>IF: 68657931 | RC: 694073</p>
               <p>Adresse: MOHAMED SMIHA, CASABLANCA</p>
-              <p>Téléphone: 0649557449</p>
+              <p>Phone: 0649557449</p>
               <p>Email: advertisingstallion@gmail.com</p>
             </div>
           </div>
